@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		333627E91BCDEC40002B08A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333627E81BCDEC40002B08A5 /* AppDelegate.swift */; };
-		333627EB1BCDEC40002B08A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333627EA1BCDEC40002B08A5 /* ViewController.swift */; };
 		333627EE1BCDEC40002B08A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333627EC1BCDEC40002B08A5 /* Main.storyboard */; };
 		333627F01BCDEC40002B08A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333627EF1BCDEC40002B08A5 /* Assets.xcassets */; };
-		333627F31BCDEC40002B08A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333627F11BCDEC40002B08A5 /* LaunchScreen.storyboard */; };
 		333627FE1BCDEC40002B08A5 /* Sina_MicroblogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333627FD1BCDEC40002B08A5 /* Sina_MicroblogTests.swift */; };
 		333628091BCDEC40002B08A5 /* Sina_MicroblogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333628081BCDEC40002B08A5 /* Sina_MicroblogUITests.swift */; };
+		3336283F1BCDF2C4002B08A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333628181BCDF2C4002B08A5 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		333628401BCDF2C4002B08A5 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 333628241BCDF2C4002B08A5 /* MainVCSettings.json */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +34,8 @@
 
 /* Begin PBXFileReference section */
 		333627E51BCDEC40002B08A5 /* Sina-Microblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sina-Microblog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		333627E81BCDEC40002B08A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		333627EA1BCDEC40002B08A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		333627ED1BCDEC40002B08A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		333627EF1BCDEC40002B08A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		333627F21BCDEC40002B08A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		333627F41BCDEC40002B08A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		333627F91BCDEC40002B08A5 /* Sina-MicroblogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sina-MicroblogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		333627FD1BCDEC40002B08A5 /* Sina_MicroblogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sina_MicroblogTests.swift; sourceTree = "<group>"; };
@@ -47,6 +43,8 @@
 		333628041BCDEC40002B08A5 /* Sina-MicroblogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sina-MicroblogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		333628081BCDEC40002B08A5 /* Sina_MicroblogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sina_MicroblogUITests.swift; sourceTree = "<group>"; };
 		3336280A1BCDEC40002B08A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333628181BCDF2C4002B08A5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		333628241BCDF2C4002B08A5 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +95,9 @@
 		333627E71BCDEC40002B08A5 /* Sina-Microblog */ = {
 			isa = PBXGroup;
 			children = (
-				333627E81BCDEC40002B08A5 /* AppDelegate.swift */,
-				333627EA1BCDEC40002B08A5 /* ViewController.swift */,
+				333628161BCDF2C4002B08A5 /* Classes */,
 				333627EC1BCDEC40002B08A5 /* Main.storyboard */,
 				333627EF1BCDEC40002B08A5 /* Assets.xcassets */,
-				333627F11BCDEC40002B08A5 /* LaunchScreen.storyboard */,
 				333627F41BCDEC40002B08A5 /* Info.plist */,
 			);
 			path = "Sina-Microblog";
@@ -123,6 +119,319 @@
 				3336280A1BCDEC40002B08A5 /* Info.plist */,
 			);
 			path = "Sina-MicroblogUITests";
+			sourceTree = "<group>";
+		};
+		333628161BCDF2C4002B08A5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				333628171BCDF2C4002B08A5 /* AppDelegate */,
+				333628191BCDF2C4002B08A5 /* Compose */,
+				3336281A1BCDF2C4002B08A5 /* Discover(广场) */,
+				3336281E1BCDF2C4002B08A5 /* Home(首页) */,
+				3336282A1BCDF2C4002B08A5 /* Main(主要) */,
+				3336282E1BCDF2C4002B08A5 /* Message(消息) */,
+				333628321BCDF2C4002B08A5 /* Newfeature(新特性) */,
+				333628361BCDF2C4002B08A5 /* OAuth */,
+				3336283A1BCDF2C4002B08A5 /* Profile(我) */,
+				3336283E1BCDF2C4002B08A5 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		333628171BCDF2C4002B08A5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				333628181BCDF2C4002B08A5 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		333628191BCDF2C4002B08A5 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		3336281A1BCDF2C4002B08A5 /* Discover(广场) */ = {
+			isa = PBXGroup;
+			children = (
+				3336281B1BCDF2C4002B08A5 /* Controller */,
+				3336281C1BCDF2C4002B08A5 /* Model */,
+				3336281D1BCDF2C4002B08A5 /* View */,
+			);
+			path = "Discover(广场)";
+			sourceTree = "<group>";
+		};
+		3336281B1BCDF2C4002B08A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3336281C1BCDF2C4002B08A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3336281D1BCDF2C4002B08A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3336281E1BCDF2C4002B08A5 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				3336281F1BCDF2C4002B08A5 /* Controller */,
+				333628201BCDF2C4002B08A5 /* Model */,
+				333628211BCDF2C4002B08A5 /* PhotoBrowser */,
+				333628221BCDF2C4002B08A5 /* RefreshControl */,
+				333628231BCDF2C4002B08A5 /* Resource */,
+				333628251BCDF2C4002B08A5 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		3336281F1BCDF2C4002B08A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		333628201BCDF2C4002B08A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		333628211BCDF2C4002B08A5 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		333628221BCDF2C4002B08A5 /* RefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RefreshControl;
+			sourceTree = "<group>";
+		};
+		333628231BCDF2C4002B08A5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				333628241BCDF2C4002B08A5 /* MainVCSettings.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		333628251BCDF2C4002B08A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				333628261BCDF2C4002B08A5 /* Cell */,
+				333628271BCDF2C4002B08A5 /* Popover */,
+				333628281BCDF2C4002B08A5 /* QRCode */,
+				333628291BCDF2C4002B08A5 /* RefreshControl */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		333628261BCDF2C4002B08A5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		333628271BCDF2C4002B08A5 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		333628281BCDF2C4002B08A5 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		333628291BCDF2C4002B08A5 /* RefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RefreshControl;
+			sourceTree = "<group>";
+		};
+		3336282A1BCDF2C4002B08A5 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				3336282B1BCDF2C4002B08A5 /* Controller */,
+				3336282C1BCDF2C4002B08A5 /* Model */,
+				3336282D1BCDF2C4002B08A5 /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		3336282B1BCDF2C4002B08A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3336282C1BCDF2C4002B08A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3336282D1BCDF2C4002B08A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3336282E1BCDF2C4002B08A5 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				3336282F1BCDF2C4002B08A5 /* Controller */,
+				333628301BCDF2C4002B08A5 /* Model */,
+				333628311BCDF2C4002B08A5 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		3336282F1BCDF2C4002B08A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		333628301BCDF2C4002B08A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		333628311BCDF2C4002B08A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		333628321BCDF2C4002B08A5 /* Newfeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				333628331BCDF2C4002B08A5 /* Controller */,
+				333628341BCDF2C4002B08A5 /* Model */,
+				333628351BCDF2C4002B08A5 /* View */,
+			);
+			path = "Newfeature(新特性)";
+			sourceTree = "<group>";
+		};
+		333628331BCDF2C4002B08A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		333628341BCDF2C4002B08A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		333628351BCDF2C4002B08A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		333628361BCDF2C4002B08A5 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				333628371BCDF2C4002B08A5 /* Controller */,
+				333628381BCDF2C4002B08A5 /* Model */,
+				333628391BCDF2C4002B08A5 /* View */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		333628371BCDF2C4002B08A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		333628381BCDF2C4002B08A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		333628391BCDF2C4002B08A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3336283A1BCDF2C4002B08A5 /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+				3336283B1BCDF2C4002B08A5 /* Controller */,
+				3336283C1BCDF2C4002B08A5 /* Model */,
+				3336283D1BCDF2C4002B08A5 /* View */,
+			);
+			path = "Profile(我)";
+			sourceTree = "<group>";
+		};
+		3336283B1BCDF2C4002B08A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3336283C1BCDF2C4002B08A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3336283D1BCDF2C4002B08A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3336283E1BCDF2C4002B08A5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +540,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				333627F31BCDEC40002B08A5 /* LaunchScreen.storyboard in Resources */,
 				333627F01BCDEC40002B08A5 /* Assets.xcassets in Resources */,
 				333627EE1BCDEC40002B08A5 /* Main.storyboard in Resources */,
+				333628401BCDF2C4002B08A5 /* MainVCSettings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +567,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				333627EB1BCDEC40002B08A5 /* ViewController.swift in Sources */,
-				333627E91BCDEC40002B08A5 /* AppDelegate.swift in Sources */,
+				3336283F1BCDF2C4002B08A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +609,6 @@
 				333627ED1BCDEC40002B08A5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		333627F11BCDEC40002B08A5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				333627F21BCDEC40002B08A5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,6 +701,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = "Sina-Microblog/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wzy.Sina-Microblog";
@@ -412,6 +713,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = "Sina-Microblog/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wzy.Sina-Microblog";
