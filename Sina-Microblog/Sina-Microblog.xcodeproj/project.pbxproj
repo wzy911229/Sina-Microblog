@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		333627EE1BCDEC40002B08A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333627EC1BCDEC40002B08A5 /* Main.storyboard */; };
+		1956FE8BBF6D6B47BCF7C906 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E18DD80607145E747E97EB9 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		333627F01BCDEC40002B08A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333627EF1BCDEC40002B08A5 /* Assets.xcassets */; };
 		333627FE1BCDEC40002B08A5 /* Sina_MicroblogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333627FD1BCDEC40002B08A5 /* Sina_MicroblogTests.swift */; };
 		333628091BCDEC40002B08A5 /* Sina_MicroblogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333628081BCDEC40002B08A5 /* Sina_MicroblogUITests.swift */; };
 		3336283F1BCDF2C4002B08A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333628181BCDF2C4002B08A5 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 		333628401BCDF2C4002B08A5 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 333628241BCDF2C4002B08A5 /* MainVCSettings.json */; settings = {ASSET_TAGS = (); }; };
+		333628421BCDF6BD002B08A5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333628411BCDF6BD002B08A5 /* MainTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
+		333628441BCDF9E2002B08A5 /* NewfeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333628431BCDF9E2002B08A5 /* NewfeatureViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		333628461BCE0E0C002B08A5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333628451BCE0E0C002B08A5 /* WelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		333627E51BCDEC40002B08A5 /* Sina-Microblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sina-Microblog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		333627ED1BCDEC40002B08A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		333627EF1BCDEC40002B08A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333627F41BCDEC40002B08A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		333627F91BCDEC40002B08A5 /* Sina-MicroblogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sina-MicroblogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +47,12 @@
 		3336280A1BCDEC40002B08A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		333628181BCDF2C4002B08A5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		333628241BCDF2C4002B08A5 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		333628411BCDF6BD002B08A5 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		333628431BCDF9E2002B08A5 /* NewfeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewfeatureViewController.swift; sourceTree = "<group>"; };
+		333628451BCE0E0C002B08A5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		6E18DD80607145E747E97EB9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FA79C6034E1808DE9C901B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D823E4596528709AF759912F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1956FE8BBF6D6B47BCF7C906 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14F9610B6CBA44D7189986BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D823E4596528709AF759912F /* Pods.debug.xcconfig */,
+				B8FA79C6034E1808DE9C901B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		333627DC1BCDEC40002B08A5 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +97,8 @@
 				333627FC1BCDEC40002B08A5 /* Sina-MicroblogTests */,
 				333628071BCDEC40002B08A5 /* Sina-MicroblogUITests */,
 				333627E61BCDEC40002B08A5 /* Products */,
+				14F9610B6CBA44D7189986BF /* Pods */,
+				FC42E39863730917C3A399A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				333628161BCDF2C4002B08A5 /* Classes */,
-				333627EC1BCDEC40002B08A5 /* Main.storyboard */,
 				333627EF1BCDEC40002B08A5 /* Assets.xcassets */,
 				333627F41BCDEC40002B08A5 /* Info.plist */,
 			);
@@ -285,6 +304,8 @@
 		3336282B1BCDF2C4002B08A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				333628411BCDF6BD002B08A5 /* MainTabBarController.swift */,
+				333628451BCE0E0C002B08A5 /* WelcomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -347,6 +368,7 @@
 		333628331BCDF2C4002B08A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				333628431BCDF9E2002B08A5 /* NewfeatureViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -434,6 +456,14 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		FC42E39863730917C3A399A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E18DD80607145E747E97EB9 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -441,9 +471,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3336280D1BCDEC40002B08A5 /* Build configuration list for PBXNativeTarget "Sina-Microblog" */;
 			buildPhases = (
+				D78D6314FA418E07BA6021CD /* Check Pods Manifest.lock */,
 				333627E11BCDEC40002B08A5 /* Sources */,
 				333627E21BCDEC40002B08A5 /* Frameworks */,
 				333627E31BCDEC40002B08A5 /* Resources */,
+				5E3C56C70536692E27CD417F /* Embed Pods Frameworks */,
+				FBC6C2F9D3C8F075976F6740 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -541,7 +574,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				333627F01BCDEC40002B08A5 /* Assets.xcassets in Resources */,
-				333627EE1BCDEC40002B08A5 /* Main.storyboard in Resources */,
 				333628401BCDF2C4002B08A5 /* MainVCSettings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,12 +594,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E3C56C70536692E27CD417F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78D6314FA418E07BA6021CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC6C2F9D3C8F075976F6740 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		333627E11BCDEC40002B08A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				333628421BCDF6BD002B08A5 /* MainTabBarController.swift in Sources */,
+				333628461BCE0E0C002B08A5 /* WelcomeViewController.swift in Sources */,
 				3336283F1BCDF2C4002B08A5 /* AppDelegate.swift in Sources */,
+				333628441BCDF9E2002B08A5 /* NewfeatureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,17 +684,6 @@
 			targetProxy = 333628051BCDEC40002B08A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		333627EC1BCDEC40002B08A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				333627ED1BCDEC40002B08A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3336280B1BCDEC40002B08A5 /* Debug */ = {
@@ -699,10 +771,12 @@
 		};
 		3336280E1BCDEC40002B08A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D823E4596528709AF759912F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = "Sina-Microblog/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wzy.Sina-Microblog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -711,10 +785,12 @@
 		};
 		3336280F1BCDEC40002B08A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FA79C6034E1808DE9C901B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = "Sina-Microblog/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wzy.Sina-Microblog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -788,6 +864,7 @@
 				3336280F1BCDEC40002B08A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		333628101BCDEC40002B08A5 /* Build configuration list for PBXNativeTarget "Sina-MicroblogTests" */ = {
 			isa = XCConfigurationList;
@@ -796,6 +873,7 @@
 				333628121BCDEC40002B08A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		333628131BCDEC40002B08A5 /* Build configuration list for PBXNativeTarget "Sina-MicroblogUITests" */ = {
 			isa = XCConfigurationList;
@@ -804,6 +882,7 @@
 				333628151BCDEC40002B08A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
